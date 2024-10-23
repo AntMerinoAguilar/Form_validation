@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise Form validation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="username">Username : </label>
+        <input type="text" name="username" id="username" />
+        <p class="msg"></p>
+      </div>
+
+      <br /><br />
+
+      <div>
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" />
+        <p class="msg"></p>
+      </div>
+
+      <br /><br />
+
+      <div>
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" />
+        <p class="msg"></p>
+      </div>
+
+      <br /><br />
+
+      <div>
+        <label for="passwordConfirmation">Confirm password : </label>
+        <input
+          type="password"
+          name="passwordConfirmation"
+          id="passwordConfirmation"
+        />
+        <p class="msg"></p>
+      </div>
+
+      <br /><br />
+
+      <div class="submit-btn">
+        <button type="submit">submit</button>
+      </div>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>

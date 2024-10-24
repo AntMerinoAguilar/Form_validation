@@ -36,18 +36,18 @@ button {
     border-radius: 12px;
 }
 
-.error {
+.error .msg {
     color: crimson;
 }
 
-.error-input {
+.error input {
     border: 1px solid crimson;
 }
 
-.success {
+.success .msg {
     color: greenyellow;
 }
 
-.success-input {
+.success input {
     border: 1px solid greenyellow;
 }
